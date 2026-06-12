@@ -1,26 +1,59 @@
+<div align="center">
+
 # 🧹 Git Janitor
 
-Developers are great at creating branches, but terrible at deleting them. **Git Janitor** is a lightweight CLI utility that safely finds and deletes local branches that have already been merged, keeping your local environment sparkling clean.
+*Sweep away stale, merged branches and keep your local git environment sparkling clean.*
 
-## 🚀 Features
-* **Safe by Default:** Only targets branches that have already been fully merged.
-* **Protected Branches:** Never accidentally deletes `main`, `master`, `develop`, or `staging`.
-* **Interactive Prompt:** Always asks for confirmation before sweeping anything away.
+[![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/GIGABOIZ/git-janitor/graphs/commit-activity)
+[![Open Source Love](https://img.shields.io/badge/Open%20Source-❤️-red.svg?style=for-the-badge)](https://github.com/GIGABOIZ/git-janitor)
+
+</div>
+
+<hr>
+
+## 💡 The Problem
+Developers are great at creating branches, but terrible at deleting them. Over time, your local repository gets cluttered with dozens of merged branches, making it hard to find what you actually need.
+
+## ✨ The Solution
+**Git Janitor** is a sleek, safe-by-default CLI utility that automatically scans your repo, identifies branches that have already been merged, and helps you safely sweep them away in seconds.
+
+## 🚀 Key Features
+
+- 🛡️ **Safe by Default:** Only targets branches that are 100% merged.
+- 🔒 **Protected Branches:** Never touches `main`, `master`, `develop`, or `staging` to prevent accidental data loss.
+- ⚡ **Lightning Fast:** Built in pure Python with zero bloated dependencies.
+- ✋ **Interactive:** Always asks for your explicit confirmation before deleting anything.
+
+---
 
 ## 🛠️ Installation
 
-Install it globally straight from GitHub using `pip`:
+Get up and running in seconds. Install it globally directly from GitHub using `pip`:
 
 \`\`\`bash
 pip install git+https://github.com/GIGABOIZ/git-janitor.git
 \`\`\`
 
-## 📖 Usage
+---
 
-Navigate to any of your local git repositories in your terminal and simply run:
+## 💻 Usage
+
+Navigate to any local Git repository in your terminal and summon the janitor:
 
 \`\`\`bash
 git-janitor
 \`\`\`
 
-The tool will scan your repository, list the branches safe for deletion, and ask for your permission to sweep them away.
+**What happens next?**
+1. The script scans your local git tree.
+2. It prints a clean list of merged branches that are safe to delete.
+3. It prompts you for a \`[y/N]\` confirmation. 
+4. Boom. Clean repo. 🧹
+
+---
+
+<div align="center">
+  <b>Built with 💻 by <a href="https://github.com/GIGABOIZ">GIGABOIZ</a></b>
+</div>
