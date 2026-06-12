@@ -7,7 +7,7 @@
 [![Python Version](https://img.shields.io/badge/python-3.6%2B-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=for-the-badge)](https://github.com/GIGABOIZ/git-janitor/graphs/commit-activity)
-[![Open Source Love](https://img.shields.io/badge/Open%20Source-❤️-red.svg?style=for-the-badge)](https://github.com/GIGABOIZ/git-janitor)
+[![Terminal](https://img.shields.io/badge/CLI-Terminal-black.svg?style=for-the-badge&logo=windows-terminal&logoColor=white)](#)
 
 </div>
 
@@ -55,5 +55,5 @@ git-janitor
 ---
 
 <div align="center">
-  <b>Built with 💻 by <a href="https://github.com/GIGABOIZ">GIGABOIZ</a></b>
+  <b>Built with ❤️ by <a href="https://github.com/GIGABOIZ">GIGABOIZ</a></b>
 </div>
